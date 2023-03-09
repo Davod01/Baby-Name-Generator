@@ -6,6 +6,12 @@ interface Name {
   length: Length;
 }
 
+export interface OptionState {
+  Gender: Gender;
+  Popularity: Popularity;
+  Length: Length;
+}
+
 export enum Gender {
   GIRL = "Girl",
   BOY = "Boy",
